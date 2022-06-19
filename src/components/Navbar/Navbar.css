@@ -1,0 +1,37 @@
+.navbar_container{
+ background-color: black;
+ color: whitesmoke;
+ display: flex;
+ align-items: center;
+ justify-content: space-between; 
+ padding-left: 10%;
+ padding-right: 10%;
+}
+.navbar_left{
+    
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 40px;
+    color: red;
+    
+}
+.navbar_right{
+    
+    display:flex;
+    
+}
+
+.navbar_right > p {
+margin-left: 12px;
+margin-right: 12px;
+padding:10px 20px;
+border-radius: 8px;
+font: 18px;
+}
+.navbar_right > p:hover{
+    background-color: lightgray;
+    border-radius: 8px;
+    cursor: pointer;
+    color: black;
+
+}

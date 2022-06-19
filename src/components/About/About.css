@@ -1,0 +1,58 @@
+.about_container{
+    padding: 0 10%;
+    height: 75vh;  
+    /* viewport widht takes full size  
+    display flex puts element in row
+    flex direction elements ko column ya row dono me krta h
+    justify content vertically align kr deta h
+    align horizonTAL ALIGN KRTA H*/
+    flex-direction: column;
+    justify-content: center;
+}
+.pic{
+    float: right;
+    padding-top: 60px;
+    padding-right: 90px;
+    padding-left: 20px;
+    border-radius: 50%;
+    overflow: hidden;
+    
+}
+.pic>img{
+    border-radius: 50%;
+}
+.about_text1{
+    font-size: 24px;
+}
+.highlighted_text{
+  color: red;
+}
+.about_text2{
+    font-size: 65px;
+    font-weight: bold;
+    margin: -15px 0;
+
+}
+
+.about_text3{
+    font-size: 45px;
+}
+.about_description{
+    align-content: center;
+
+    font-size: 19px;
+}
+.about_button{
+    font-size: 20px;
+    padding: 8px 16px;
+    margin-top: 30px;
+    background-color: #080808;
+    color:red;
+    border: 1px solid red;
+}
+.about_button:hover{
+    /* background-color: lightcyan; */
+    color: white;
+    /* font-weight: bold; */
+    
+}
