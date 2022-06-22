@@ -53,7 +53,7 @@ function TechStack() {
         }
     return (
         
-        <div className="techstack_container">
+        <div id="techstack" className="techstack_container">
             <p className="techstack_title">TechStack</p>
             <div className="techstack_images_row_container">
                 <div className="techstack_image_container_row1">

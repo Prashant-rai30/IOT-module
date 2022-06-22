@@ -12,12 +12,12 @@ function Project() {
         {
             image: [image1],
             title: "Object Detection: IOT module",
-            description: [" Made an IOT module with help of Arduino Uno, a DHT11 sensor, and a buzzer. ",
-                " Understood the working of various ports and components of Arduino and also got to know about DHT 11 sensor and how they work together",
-                " The DHT 11 sensor has 2 components one sends sound waves and second one recieves those waves if they return back ",
+            description: [" Made an IOT module with help of Arduino Uno, a Ultrasonic sensor, and a buzzer. ",
+                " Understood the working of various ports and components of Arduino and also got to know about Ultrasonic sensor and how they work together",
+                " The Ultrasonic sensor has 2 components one sends sound waves and second one recieves those waves if they return back ",
                 "This project will detect objects in its way if they are closer or about 50 cm distance, when it detects any object, the buzze installed in it will start making sound.   ",
             ],
-            link: "https://google.com",
+            link: "https://www.intorobotics.com/object-detection-hc-sr04-arduino-millis/",
         },
         {
             image: [auto],
@@ -59,7 +59,7 @@ function Project() {
 
     return (
 
-        <div>
+        <div id="project">
             <p className="projects_title">Projects</p>
             <div className="Block1">
                 {projectData.map((value, key) => (

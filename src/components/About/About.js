@@ -7,8 +7,8 @@ import pic from "../../images/pic.png"
 function About() {
     return(
         <>
-        <div className="pic">
-        <img src={pic} width="240px" height="260px" border-Radius="50" />
+        <div id="about" className="pic">
+        <img src={pic} width="250px" height="259px" border-Radius="50" />
     </div>
         <div className="about_container">
             <p className="about_text1"><span className="highlighted_text">Hi,</span > my name is </p>

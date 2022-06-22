@@ -12,6 +12,12 @@ function Experience(){
             title:"Certificates",
             sentences:[
                 "FRONT END DEVELOPMENT(BOARD INFINITY)  ",
+                "Learn C++ BEGINEER TO ADVANCE",
+                "INTRESTS",
+                "PLAYING ONLINE GAMES",
+                "BADMINTON",
+                ""
+
                 
                 // "bjbcskbjcqkjbcfqejlqbfjbqs cjcfqbbclqebqbcblfbfcbqbqbdjbfbqfjbfcsecdalkw   idhhfqoifbjqbefm xcalndiqowdbjdjqf ",
                 // "bjbcskbjcqkjbcfqejlqbfjbqs cjcfqbbclqebqbcblfbfcbqbqbdjbfbqfjbfcsecdalkw   idhhfqoifbjqbefm xcalndiqowdbjdjqf ",
@@ -51,7 +57,7 @@ function Experience(){
 return(
 
     
-    <div className="ex_container" >
+    <div id="experience"className="ex_container" >
         <p className="ex_title"></p>
         <div className="ex_experiencebox_container">
             {experienceData.map((value,key)=>(
