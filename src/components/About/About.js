@@ -8,7 +8,7 @@ function About() {
     return(
         <>
         <div id="about" className="pic">
-        <img src={pic} width="250px" height="259px" border-Radius="50" />
+        <img src={pic} width="250px" height="259px" border-Radius="50" alt=""/>
     </div>
         <div className="about_container">
             <p className="about_text1"><span className="highlighted_text">Hi,</span > my name is </p>

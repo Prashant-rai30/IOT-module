@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../../../images/Project/image1.jpg"
+
 import "./ProjectBox.css";
 
 function ProjectBox(props) {
@@ -7,7 +7,7 @@ function ProjectBox(props) {
         <div className="pro_box_container">
             {/* {project Image} */}
             <div className="pro_box_img_container">
-                <img src={props.image} />
+                <img src={props.image} alt=""/>
             </div>
             {/* {project title} */}
             <p className="pro_box_title">{props.title}</p>
