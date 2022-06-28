@@ -11,12 +11,12 @@ import github from "../../images/footer/github.png";
     <div id= "footer"className='footer'>
       <p className='head'>Socials</p>
       <div className='list'>
-      <img  href="" src={gmail} alt="email image" />
-      <img href="" src={github} alt="email image" />
-      <img href="" src={linkedin} alt="email image" />
-      <img href="" src={facebook} alt="email image" />
-      <img href="" src={instagram} alt="email image" />
-      <img href="" src={wix} alt="email image" />
+      <a className='listt' href="mailto: prashantraipm@gmail.com" target="_blank_"> <img src={gmail}  alt="email image" /></a>
+      <a  className='listt' href="https://github.com/Prashant-rai30" target="_blank_"><img  src={github} alt="github image" /></a>
+      <a  className='listt' href="https://www.linkedin.com/in/prashantrai30/" target="_blank_"><img  src={linkedin} alt="linked image" /></a>
+      <a  className='listt' href="https://www.facebook.com/profile.php?id=100006415593995"target="_blank_"><img  src={facebook} alt="fb image" /></a>
+      <a  className='listt' href="https://www.instagram.com/_prashant_rai._/ " target="_blank_"><img src={instagram} alt="insta image" /></a>
+      <a  className='listt' href="https://prashantraipm.wixsite.com/automart" target="_blank_" ><img  src={wix} alt="wix image" /></a>
          </div></div>
   )
 }

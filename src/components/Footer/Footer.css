@@ -6,18 +6,20 @@
         width: 100%;
         text-align: center;
     }
-.list{
+.listt{
    /* width: 100%; */
    align-items: center;
 }
-.list>img{
-    width: 80px;
+img{
+   width: 80px;
     justify-content: center;
-   padding: 8px 20px 8px;
+   padding: 8px 20px 10px;
+   flex: 3;
 }
-.list>img:hover{
+.listt>img:hover{
     width: 90px;
     background-color: gray;
+    /* flex: 3; */
 }
 .head{
     font-size: 40px;
