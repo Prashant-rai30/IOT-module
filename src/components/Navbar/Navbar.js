@@ -17,7 +17,7 @@ function Navbar() {
                     <p><a style={{ textDecoration: "none", color: "white" }} href="#techstack">Tools</a></p>
                     <p><a style={{ textDecoration: "none", color: "white" }} href="#project">Projects</a></p>
                     {/* <p><a style={{ textDecoration: "none", color: "white" }} href="#experience">Experience</a></p> */}
-                    <p><a style={{ textDecoration: "none", color: "white" }} href="\static\media\CV16-6.pdf" download="PrashantRai.pdf">Resume</a></p>
+                    <p><a style={{ textDecoration: "none", color: "white" }} href="\static\media\cv.pdf" download="PrashantRai.pdf">Resume</a></p>
                     <p><a style={{ textDecoration: "none", color: "white" }} href="#footer">Socials</a></p>
                 </div>
             </div >
