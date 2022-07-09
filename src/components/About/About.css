@@ -8,10 +8,11 @@
     align horizonTAL ALIGN KRTA H*/
     flex-direction: column;
     justify-content: center;
+
 }
 .about_image>img:hover{
-    width: 88px;
-    flex: 3;
+    transform: scale(1.2);
+  
 }
 .pic{
     
@@ -59,6 +60,7 @@
 .about_button:hover{
     /* background-color: lightcyan; */
     color: white;
+    transform: scale(1.2);
     /* font-weight: bold; */
     
 }

@@ -4,6 +4,9 @@
 background-color: #181818;
 
 }
+.techstack_image_element_container>img:hover{
+    transform: scale(1.4);
+}
 a.hover{
     width: 70px;
 }

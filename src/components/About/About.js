@@ -18,7 +18,7 @@ function About() {
             <p className="about_description">I am a third-year student pursuing B.Tech in Computer Science and Engineering major in LPU. I am an innovative, hard-working, and a time punctual person. I enjoy doing front-end 
             development work and am also a technology enthusiastic person. I am also having some good knowledge in the field of digital marketing and also have done some projects in IOT out of eagerness.</p>
              <div>
-                 <a className="about_image" href="https://github.com/Prashant-rai30" target="_blank_"> <img src={github} alt="github image"/></a>
+                 <a className="about_image" href="https://github.com/Prashant-rai30" target="_blank_"> <img src={github}  alt="github image"/></a>
                  <a className="about_image"href="https://www.linkedin.com/in/prashantrai30/" target="_blank_"><img src={lin} alt="linked In image"/></a>
              </div>
              <a href="mailto: prashantraipm@gmail.com">
